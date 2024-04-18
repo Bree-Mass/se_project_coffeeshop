@@ -15,4 +15,4 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 Add your ideas here :)
 
-![Paw Haw Haw](../paw.png)
+![Paw Haw Haw](/images/demo/paw.png)
