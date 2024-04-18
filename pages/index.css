@@ -1,3 +1,29 @@
+input::-webkit-input-placeholder {
+  color: #838383;
+  font-size: 20px;
+  line-height: 30px;
+}
+input::-moz-placeholder {
+  color: #838383;
+  font-size: 20px;
+  line-height: 30px;
+}
+input::-ms-input-placeholder {
+  color: #838383;
+  font-size: 20px;
+  line-height: 30px;
+}
+input::placeholder {
+  color: #838383;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+input[type="checkbox"] {
+  height: 20px;
+  width: 20px;
+}
+
 .page {
   margin: 0 auto;
   min-width: 1100px;
@@ -137,7 +163,6 @@
 
 .recipes__videos {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
 }
@@ -160,4 +185,81 @@
 
 .recipes__video-caption_block {
   margin: 24px 0 215px;
+}
+
+.recipes__video-caption_block:nth-child(2) {
+  justify-content: right;
+}
+
+.reservation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #d9e7ff;
+  background-image: url(../images/background_reservation.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.reservation__title {
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin: 100px 0 0;
+}
+
+.form__label {
+  display: flex;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 32px 0 8px;
+}
+
+.form__label:first-of-type {
+  margin-top: 80px;
+}
+
+.form__label:last-of-type {
+  margin-bottom: 120px;
+  justify-content: center;
+}
+
+.form__fieldset {
+  display: flex;
+  flex-direction: column;
+  width: 385px;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.form__format {
+  border-radius: 4px;
+  height: 60px;
+  max-width: 385px;
+  padding-left: 20px;
+}
+
+.form__button {
+  border-radius: 4px;
+  background-color: #2f80ed;
+  color: #fff;
+  font-weight: 500;
+  opacity: 1;
+  transition: opacity 0.5s;
+  margin: 32px 0 0;
+}
+
+.form__button:hover {
+  opacity: 0.7;
+}
+
+.form___checkbox {
+  border-radius: 2px;
+  height: 20px;
+}
+
+.form__checkbox_label {
+  margin: 0 0 0 12px;
 }
