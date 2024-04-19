@@ -9,10 +9,8 @@ This is the second project of the Software Engineering program at TripleTen. It 
 - Positioning
 - Flat BEM file structure
 - A custom form
-- CSS animation and transform
+- CSS animation and transition
 
 ## Plan on improving the project
 
-Add your ideas here :)
-
-![Paw Haw Haw](/images/demo/paw.png)
+Adding some personalization to the recipes page and using videos not given in the brief would give it more character.
