@@ -28,29 +28,25 @@
 .recipes__videos {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 40px;
+  margin: 80px 0 215px;
+  list-style: none;
+  padding: 0;
 }
 
 .recipes__iframe {
   width: 480px;
   height: 273px;
   border: 0;
-  margin: 80px 0 0;
 }
 
 .recipes__video-caption {
   display: flex;
   justify-content: space-between;
-  width: 480px;
+  max-width: 480px;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
-}
-
-.recipes__video-caption_block {
-  margin: 24px 0 215px;
-}
-
-.recipes__video-caption_block:nth-child(2) {
-  justify-content: right;
+  margin: 24px 0 0;
 }

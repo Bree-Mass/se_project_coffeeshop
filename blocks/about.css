@@ -15,7 +15,6 @@
 .about {
   display: flex;
   background-color: #0a2850;
-  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   font-family: "Inter", Arial, sans-serif;
@@ -50,7 +49,7 @@
 }
 
 .about__paragraph:last-of-type {
-  margin: 0 0;
+  margin: 0;
 }
 
 .about__circle {
