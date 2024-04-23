@@ -1,14 +1,9 @@
-input[type="checkbox"] {
-  height: 20px;
-  width: 20px;
-}
-
 .form__label {
   display: flex;
   font-weight: 500;
   font-size: 16px;
   margin: 32px 0 8px;
-  gap: 10px;
+  gap: 12px;
 }
 
 .form__label:first-of-type {
@@ -34,7 +29,7 @@ input[type="checkbox"] {
   border: 1px solid #838383;
   height: 60px;
   max-width: 385px;
-  padding: 1px 2px 1px 20px;
+  padding: 1px 15px 1px;
   font-size: 20px;
   line-height: 30px;
 }
@@ -42,7 +37,7 @@ input[type="checkbox"] {
 .form__button {
   cursor: pointer;
   height: 60px;
-  border: 1px solid #838383;
+  border: none;
   border-radius: 4px;
   background-color: #2f80ed;
   color: #fff;
@@ -56,8 +51,8 @@ input[type="checkbox"] {
   opacity: 0.7;
 }
 
-.form___checkbox {
+.form__checkbox {
   border-radius: 2px;
   height: 20px;
-  margin: 0 12px 0 0;
+  width: 20px;
 }
